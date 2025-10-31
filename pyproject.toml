@@ -1,0 +1,16 @@
+[project]
+name = "agentic-backend"
+version = "0.1.0"
+description = "Agentic backend for supervisor/deep agents with MCP and PGVector"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain==1.0.0",
+    "langchain-mcp-adapters>=0.1.11",
+    "langchain-openai==1.0.0",
+    "langgraph>=1.0.1",
+    "langgraph-checkpoint-postgres>=3.0.0",
+    "langgraph-cli[inmem]>=0.4.4",
+    "psycopg[binary,pool]>=3.2.11",
+    "python-dotenv>=1.0.1",
+]

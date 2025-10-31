@@ -1,0 +1,11 @@
+# URLs for the Multi-Server MCP Client, which provides external tools.
+mcp_clients:
+  Cropontology:
+    url: "https://CropOntology.fastmcp.app/mcp"
+    transport: "streamable_http"
+  AgrovocMCP:
+    url: "https://agrovoc.fastmcp.app/mcp"
+    transport: "streamable_http"
+  SimcastMCP:
+    url: "https://simcast-cip.fastmcp.app/mcp"
+    transport: "streamable_http"
